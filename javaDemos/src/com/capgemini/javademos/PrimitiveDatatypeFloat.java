@@ -2,7 +2,7 @@ package com.capgemini.javademos;
 
 public class PrimitiveDatatypeFloat {
 //program for primitive datatype float
-	public static void main(String[] args) {
+	public static void main(String[] args) {   //main method
 		/*
 		int value1 = 9/2;
 		float value2 = 10f/6f;
@@ -11,10 +11,10 @@ public class PrimitiveDatatypeFloat {
 		System.out.println("value  2 = "+ value2);
 		System.out.println("value  3 = "+ value3);
 		*/
-	    int marker = 512;
-	    double percentage = marker * 0.46f;
+	    int marker = 512;                     //declaring variable
+	    double percentage = marker * 0.46f;   //performing operation
 	    
-	    System.out.println("percentage:"+percentage);
+	    System.out.println("percentage:"+percentage);  //printing value
 		
 		
 
